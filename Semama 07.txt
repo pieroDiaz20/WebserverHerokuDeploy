@@ -62,7 +62,7 @@ cd miproyecto\
 				creamos repositorio con git heroku 
 git init 		
 				, despues  
-heroku git:remote -a curso-node-fher
+heroku git:remote -a nombredeturepositorio
 				esto hace la coneccion de repositorio local con heroku,luego en 
 git add .		
 				,
