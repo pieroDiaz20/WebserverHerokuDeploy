@@ -77,5 +77,32 @@ git push heroku master
 				para subir los cambios al git heroku.
 				Despues nos muesstra el link creado por heroku y lo copiamos.
 
+
+4. Desplegando aplicaciones de Angular y React
+instalamos un paquete llamado 
+
+npm install --global http-server 
+					servidor que monta nuestra aplicacion web
+					luego cd y nuestra aplicacion 
+cd aplicacion/  
+					enter,luego 
+http-server -o    
+					enter y se abre la pagina web 
+5.
+Subir los cambios a Heroku o actualizar
+una ves realizado los cambios  colocar 
+git add .
+
+git commit -m "actualizando cambios "
+
+git remote -v
+					Sirve para ver los repositorios y el siguiente sera para 
+					agregar los cambios al hosting de heroku
+git push heroku master
+
+
+
+
+
 	
 
